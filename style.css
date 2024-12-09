@@ -1,0 +1,48 @@
+body{
+    background: url('https://images.stockcake.com/public/8/4/b/84b51b5c-4c91-43a7-a60c-408fd4c804b6_large/futuristic-train-station-stockcake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .container{
+    width: 50%;
+    padding: 2em;
+    margin: 25vh auto;
+    background-color: white;
+    border-radius: 25px;
+    max-width: 760px;
+  }
+  h1{
+    color: 2em;
+  }
+  h2{
+    text-align: center;
+  }
+  button{
+    border-radius: 15px;
+    padding: 1.2em;
+    display: block;
+    width: 100%;
+    margin-bottom: 1.5em;
+    font-size: 1.25em;
+    color: white;
+    border: none;
+    transition: width 1s;
+    
+  }
+  button:hover{
+    opacity: .75;
+    width: 98%;
+    
+  }
+   
+  .success{
+    background-color: green;
+  }
+  .info{
+    background-color: rgb(0, 63, 235);
+  }
+  .danger{
+    background-color: red;
+  }
